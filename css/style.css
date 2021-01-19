@@ -5,12 +5,18 @@
 }
 
 body{
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 
 .titolo{
   height: 80px;
   background-color: #ffc1b6;
+  margin-bottom: 10px;
+}
+
+.banner{
+  height: 400px;
+  background-color: #f9d89c;
   margin-bottom: 10px;
 }
