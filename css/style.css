@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  width: 90%;
+  margin: auto;
+}
+
+.titolo{
+  height: 80px;
+  background-color: #ffc1b6;
+  margin-bottom: 10px;
+}
