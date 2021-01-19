@@ -25,6 +25,12 @@ section{
   background-color: #588da8;
 }
 
+.row::after{
+  content: "";
+  display: block;
+  clear:both;
+}
+
 .titolo-section{
   height: 60px;
   background-color: #aacfcf;
@@ -32,17 +38,21 @@ section{
 }
 
 .col-1{
-  width: 31%;
+  width: 33%;
   height: 400px;
   background-color: #aacfcf;
+  float: left;
 }
 .col-2{
-  width: 31%;
+  width: 32%;
   height: 400px;
   background-color: #aacfcf;
+  float: left;
+  margin: 0 1%;
 }
 .col-3{
-  width: 31%;
+  width: 33%;
   height: 400px;
   background-color: #aacfcf;
+  float: left;
 }
