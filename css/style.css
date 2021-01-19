@@ -25,6 +25,11 @@ section{
   background-color: #588da8;
 }
 
+.row{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
 .row::after{
   content: "";
   display: block;
@@ -55,4 +60,9 @@ section{
   height: 400px;
   background-color: #aacfcf;
   float: left;
+}
+
+footer{
+  height: 40px;
+  background-color: #8b5e83;
 }
